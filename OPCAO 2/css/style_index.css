@@ -84,10 +84,19 @@
       border-radius: 15px;
   }
 
+.search-text{
 
+    border-radius: 15px;
+    color: white;
+}
   a {
       color: white;
       text-decoration: none;
+  }
+
+  .pesquisa img{
+    width: 15px
+
   }
 
 
