@@ -1,3 +1,4 @@
+/* Fonte e background de todo o html  */
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +6,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+
+/* Ajustes body  */
 body{
     background-color: #000000;
 }
 
+
+/* Ajustes menu  */
 .menu{
     display: flex;
     justify-content: space-between;
@@ -17,10 +22,14 @@ body{
     height: 80px;
 }
 
+
+/* Ajustes logo  */
 .logo img{
     width: 50px;
 }
 
+
+/* Ajustes menu itens  */
 .menu-items a img{
 width: 40px;
 }
@@ -29,6 +38,8 @@ width: 40px;
     margin-left: 5px;
 }
 
+
+/* Ajustes content  */
 .content{
     height: calc(100vh-80px);
     width: 100%;
@@ -37,6 +48,8 @@ width: 40px;
     display: flex;
 }
 
+
+/* Ajustes left side  */
 .left-side{
     display: flex;
     flex-direction: column;
@@ -70,28 +83,3 @@ width: 40px;
     padding: 15px 20px;
     border-radius: 5px;
 }
-
-p{
-color: white;
-font-family: montserrat;
-font-size: 25px;
-}
-
-
-h1{
-    font-family: 'Poppins', sans-serif;
-    background-color:  white;
-    Text-align: center
-    
-}
-
-h2{
-    background-color: rgb(77, 77, 77);
-    text-align: center;
-    height: 20%;
-}  
-
-
-
-
-
