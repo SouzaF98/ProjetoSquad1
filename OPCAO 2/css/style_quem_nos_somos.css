@@ -97,7 +97,8 @@ font-size: 25px;
 h1{
     font-family: 'Poppins', sans-serif;
     background-color:  white;
-    Text-align: center 
+    Text-align: center;
+    border-radius: 15px;;
 }
 
 
