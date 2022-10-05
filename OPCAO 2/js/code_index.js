@@ -22,12 +22,17 @@ function img(qtd) {
 
 /* ADICIONAR ITEM AO CARRINHO */
 function adicionar_ao_carrinho(mensagem_adicionar_ao_carrinho) {
-    quantidade_carrinho = quantidade_carrinho + 1
-    localStorage.setItem("quantidade_carrinho", quantidade_carrinho)
-    img(quantidade_carrinho)
-    setTimeout(function () {
-        alert(mensagem_adicionar_ao_carrinho);
-    }, 50)
+    if (quantidade_carrinho == 20) {
+        alert("Seu carrinho está muito cheio!")
+    }
+    else {
+        quantidade_carrinho = quantidade_carrinho + 1
+        localStorage.setItem("quantidade_carrinho", quantidade_carrinho)
+        img(quantidade_carrinho)
+        setTimeout(function () {
+            alert(mensagem_adicionar_ao_carrinho);
+        }, 50)
+    }
 }
 
 
