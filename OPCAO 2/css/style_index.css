@@ -6,7 +6,7 @@
   background-color: rgb(0, 0, 0);
 }
 
-
+/* Ajustes media query mobile  */
   @media screen and (max-width: 576px) {
 
       .nav-container ul {
@@ -33,26 +33,14 @@
 
   }
 
-
-
-
-
-
-  
-  
-  
-  
-  
-  
-  
-  
+  /* Ajustes html  */
   html {
       scroll-behavior: smooth;
       align-items: center;
       text-align: center;
   }
 
-
+/* Ajustes body  */
   body {
       color: white;
       font-family: sans-serif;
@@ -62,7 +50,7 @@
       text-align: center;
   }
 
-
+/* Ajustes ui  */
   ui {
       list-style: none;
       display: flex;
@@ -75,7 +63,7 @@
       text-align: center;
   }
 
-
+/* Ajustes barra de navegacao  */
   .barra_de_navegacao {
       position: fixed;
       top: 0;
@@ -84,27 +72,18 @@
       border-radius: 15px;
   }
 
-.search-text{
-
-    border-radius: 15px;
-    color: white;
-}
+/* Ajustes a  */
   a {
       color: white;
       text-decoration: none;
   }
 
-  .pesquisa img{
-    width: 15px
-
-  }
+  /* Ajustes nome  */
 .nome{
-    
     color: white
-   
-
 }
 
+  /* Ajustes lista de produtos tela inicial  */
   .lista_de_produtos_tela_inicial {
       width: 100%;
       height: 100%;
@@ -114,7 +93,7 @@
       text-align: center;
   }
 
-
+  /* Ajustes container  */
   #container {
       display: inline-block;
       position: relative;
@@ -122,7 +101,7 @@
       text-align: center;
   }
 
-
+/* Ajustes container figcaption  */
   #container figcaption {
       position: absolute;
       top: 145px;
@@ -134,12 +113,7 @@
       text-align: center;
   }
 
-
-
-
-
-
-
+  /* Ajustes wraper  */
   .wraper {
       height: auto;
       width: 80%;
@@ -149,6 +123,8 @@
       align-items: center;
       text-align: center;
   }
+
+  /* Ajustes scroller  */
   .scroller {
       display: flex;
       width: 100%;
@@ -156,11 +132,15 @@
       align-items: center;
       text-align: center;
   }
+
+  /* Ajustes wraper scroller  */
   .wraper .scroller img {
       min-width: calc(100% / 3);
       flex: 1;
       padding: 0 .5rem;
   }
+
+  /* Ajustes slide de produtos mais acessados  */
   @keyframes slidy {
      0%{margin-left:0%;}
     20%{margin-left:0%;}
@@ -178,7 +158,7 @@
   }
 
 
-
+/* Ajustes menu  */
   .menu{
     display: flex;
     justify-content: space-between;
@@ -187,7 +167,7 @@
     height: 80px;
 }
 
-
+/* Ajustes content  */
 .content{
   height: calc(100vh-80px);
   width: 100%;
@@ -196,7 +176,7 @@
   display: flex;
 }
 
-
+/* Ajustes left-side  */
 .left-side{
   display: flex;
   flex-direction: column;
@@ -208,7 +188,6 @@
 .left-side h1{
   font-size: 40px;
   color: rgb(209, 204, 204);
-
 }
 
 .left-side p{
@@ -230,4 +209,11 @@
   padding: 15px 20px;
   border-radius: 5px;
   align-self: center;
+}
+
+/* Ajustes rodapé  */
+.rodape
+{
+    color: white;
+    text-align: center;
 }

@@ -6,29 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../OPCAO 2/css/style nossa equipe.css" rel="stylesheet">
+    <script src="./js/code_index.js"></script>
     <title>SOBRE NÓS - Technight</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="checar_quantidade_carrinho()">
     <header>
+        <!-- BARRA DE NAVEGAÇÃO -->
         <div class="menu">
             <div class="logo">
+                <!-- ICONE -->
                 <a href="./index.html">
                     <img src="./img/logo_pequeno.png">
                 </a>
             </div>
             <nav class="menu-items">
-                <a href=""><img src="./img/carrinho.png"></a>
-                <a href=""><img src="./img/perfil.png"></a>
-
+                <!-- ICONE CARRINHO E PERFIL -->
+                <a href=""><img id="carrinho" src="./img/carrinho.png"></a>
+                <a href=""><img id="perfil" src="./img/perfil.png"></a>
         </div>
         </nav>
     </header>
 
     <div class="tema">
+        <!-- DESCRIÇÃO DA EMPRESA E DOS INTEGRANTES -->
         <h1>Equipe TechNight</h1>
     </div>
     <section class="equipe">
@@ -41,7 +45,7 @@
             <p> - Formado na área de desenvolvimento de sistemas </p>
             <p> - Medalhista olímpico na modalidade "Web Design/Development" na SP Skills </p>
             <p> - Freelancer</p>
-           
+
         </div>
         <div>
             <img class="nossa" src="./img/pessoa_2.png">
@@ -76,10 +80,10 @@
             <img class="nossa" src="./img/pessoa 5.png">
             <p>Sarah Souza</p>
             <p>CEO</p>
-        <br>
-        <p> - Dona da empresa de animação de filmes infantis</p>
-        <p> - Dona de uma Startup de nanotecnologia</p>
-        <p> - Dona da empresa de automação para deficientes físicos</p>
+            <br>
+            <p> - Dona da empresa de animação de filmes infantis</p>
+            <p> - Dona de uma Startup de nanotecnologia</p>
+            <p> - Dona da empresa de automação para deficientes físicos</p>
 
 
         </div>

@@ -6,28 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/style_sobre_nos.css" rel="stylesheet">
+    <script src="./js/code_index.js"></script>
     <title>SOBRE NÓS - TechNight</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="checar_quantidade_carrinho()">
     <header>
+        <!-- BARRA DE NAVEGAÇÃO -->
         <div class="menu">
             <div class="logo">
+                <!-- ICONE -->
                 <a href="./index.html">
                     <img src="./img/logo_pequeno.png">
                 </a>
             </div>
             <nav class="menu-items">
-                <a href="">
-                    <img src="./img/carrinho.png">
-                </a>
-                <a href="">
-                    <img src="./img/perfil.png">
-                </a>
-
+                <!-- ICONE CARRINHO E PERFIL -->
+                <a href=""><img id="carrinho" src="./img/carrinho.png"></a>
+                <a href=""><img id="perfil" src="./img/perfil.png"></a>
         </div>
         </nav>
     </header>
@@ -61,6 +60,7 @@
 
 
     <div>
+        <!-- FORMULÁRIO DE CONTATO -->
         <H1>Contato</H1>
         <br>
         
@@ -86,7 +86,7 @@
                 <br>
                 <textarea class="field" text="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
                 <br>
-                <input type="submit" value="Enviar">
+                <input type="submit" onclick="formulario_de_contato(`Mensagem enviada. Agradecemos o seu contato!`)"value="Enviar">
             </form>
         </div>
         </selection>
@@ -95,12 +95,15 @@
 
     </div>
 
+    <footer>
+        <!-- RODAPE" -->
+        <div class="rodape">
+            <br></br>
+            TechNight todos os direitos reservados.
+            <br></br><br></br>
+        </div>
+    </footer>
+
 </body>
-<footer>
-    <!-- RODAPE" -->
-    <div class="rodape">
-        <br></br>
-        TechNight todos os direitos reservados.
-    </div>
-</footer>
+
 </html>

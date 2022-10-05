@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./css/style_index.css" rel="stylesheet">
+    <script src="./js/code_index.js"></script>
     <title>TechNight: Tudo para o mundo Gamer!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body onload="checar_quantidade_carrinho()">
 
     <!-- BARRA DE NAVEGAÇÃO -->
     <div class="barra_de_navegacao">
@@ -79,17 +80,17 @@
 
             <!-- ICONE CARRINHO E PERFIL -->
             <a href="./carrinho.html">
-                <img src="./img/carrinho.png" width="40px" height="40px">
+                <img id="carrinho" src="./img/carrinho.png" width="40px" height="40px">
             </a>
             <a href="./perfil.html">
-                <img src="./img/perfil.png" width="40px" height="40px">
+                <img id="perfil" src="./img/perfil.png" width="40px" height="40px">
             </a>
         </ui>
     </div>
 
     <br>
     <div class=" nome">
-    <img src="./img/logo.png" width="260">
+        <img src="./img/logo.png" width="260">
     </div><br>
 
     <!-- CARROSEL COM PRODUTOS EM DESTAQUE -->
