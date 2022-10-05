@@ -47,7 +47,17 @@ body {
     padding: 0 5%;
     display: flex;
 }
+.container2{
+    display: flex;
 
+}
+
+#imagem10{
+    float: left;
+}
+
+
+}
 
 /* Ajustes left side  */
 .left-side {
