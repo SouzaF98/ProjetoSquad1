@@ -54,9 +54,8 @@ body {
 
 #imagem10{
     float: left;
-}
-
-
+    border: 4px solid white;
+    margin: 2%;
 }
 
 /* Ajustes left side  */
