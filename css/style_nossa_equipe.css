@@ -1,4 +1,3 @@
-/* Fonte e background de todo o html  */
 *{
     margin: 0;
     padding: 0;
@@ -6,12 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
 /* Ajustes body  */
 body{
     background-color: #000000;
+    margin-left: 20px;
+    margin-right: 20px;
 }
-
 
 /* Ajustes menu  */
 .menu{
@@ -22,22 +21,20 @@ body{
     height: 80px;
 }
 
-
 /* Ajustes logo  */
 .logo img{
     width: 50px;
 }
 
-
-/* Ajustes menu itens  */
+/* Ajustes menu  */
 .menu-items a img{
 width: 40px;
 }
 
+/* Ajustes menu  */
 .menu-items a{
     margin-left: 5px;
 }
-
 
 /* Ajustes content  */
 .content{
@@ -48,8 +45,7 @@ width: 40px;
     display: flex;
 }
 
-
-/* Ajustes left side  */
+/* Ajustes left-side  */
 .left-side{
     display: flex;
     flex-direction: column;
@@ -64,6 +60,45 @@ width: 40px;
 
 }
 
+/* Ajustes tema  */
+.tema{
+    color: white;
+    display: flex;
+    justify-content: center; 
+}
+
+/* Ajustes nossa  */
+.nossa{
+    max-width: 100px;
+    display: block;
+    margin-left: 50px;
+}
+
+/* Ajustes equipe  */
+.equipe{
+    display: flex;
+    flex-direction: row;
+    max-width: 1400px; 
+    margin: 0 auto;
+    padding: 80px;  
+}
+
+
+.equipe > div{
+    flex: 1 1 100px; 
+    align-items: center;
+    margin: 20px;
+}
+
+.equipe p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px; 
+}
+
+/* Ajustes left-side  */
 .left-side p{
     color: white;
     margin-bottom: 50px;
@@ -85,33 +120,9 @@ width: 40px;
 }
 
 
-/* Ajustes p  */
-p{
-color: white;
-font-family: montserrat;
-font-size: 25px;
-}
-
-
-/* Ajustes h1  */
-h1{
-    font-family: 'Poppins', sans-serif;
-    background-color:  white;
-    Text-align: center 
-}
-
-
-/* Ajustes h2  */
-h2{
-    background-color: rgb(77, 77, 77);
+/* Ajustes rodapé  */
+.rodape
+{
+    color: white;
     text-align: center;
-    height: 20%;
-}  
-
-
-/* Ajustes footer  */
-footer{
-    Text-align: center
 }
-
-

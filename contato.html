@@ -36,7 +36,9 @@
         .content{display: flex;justify-content:center}
         .contato{width: 100%;max-width: 500px;}
         .form{display: flex;flex-direction: column}
-        .field{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
+        .field_nome{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
+        .field_email{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
+        .field_mensagem{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
         .textarea{height: 150px;}
         
         </style>
@@ -45,9 +47,9 @@
         <div class="contato">
             <h3>Formulário de contato</h3>
             <form class=form method="GET" action="">
-                <input class="field" name="email" placeholder="Nome">
-                <input class="field" name="email" placeholder="E-mail">
-                <textarea class="field" name="mesage" placeholder="Digite sua mensagem aqui">
+                <input class="field_nome" name="nome" placeholder="Nome">
+                <input class="field_email" name="email" placeholder="E-mail">
+                <textarea class="field_mensagem" name="mensagem" placeholder="Digite sua mensagem aqui">
                 
                 </textarea>
         
@@ -69,7 +71,9 @@
         .content{display: flex;justify-content:center}
         .contato{width: 100%;max-width: 570px;}
         .form{display: flex;flex-direction: column}
-        .field{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
+        .field_nome{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
+        .field_email{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
+        .field_mensagem{padding: 10px;margin-bottom: 15px; border:1px solid #DDD; border-radius: 5px; }
         .textarea{height: 150px;}
         
         </style>
@@ -80,13 +84,13 @@
             <br>
             <form class=form method="GET" action="">
               <br>
-                <input class="field" name="email" placeholder="Nome">
+                <input id="id_nome" class="field_nome" name="nome" placeholder="Nome">
                 <br>  
-                <input class="field" name="email" placeholder="E-mail">
+                <input id="id_email" class="field_email" name="email" placeholder="E-mail">
                 <br>
-                <textarea class="field" text="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
+                <textarea id="id_mensagem" class="field_mensagem" text="mensagem" placeholder="Digite sua mensagem aqui"></textarea>
                 <br>
-                <input type="submit" onclick="formulario_de_contato(`Mensagem enviada. Agradecemos o seu contato!`)"value="Enviar">
+                <input type="submit" onclick="validar_email()"value="Enviar">
             </form>
         </div>
         </selection>

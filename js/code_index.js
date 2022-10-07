@@ -76,3 +76,22 @@ function limpar_o_carrinho(mensagem_limpar_o_carrinho) {
 function formulario_de_contato(formulario_de_contato) {
     alert(formulario_de_contato)
 }
+
+
+/* CHECAR SE O EMAIL ESTÁ CORRETO (checagem pelo "@" e ".com") */
+function validar_email() {
+    var email = document.getElementById("id_email").value;
+    var nome = document.getElementById("id_nome").value;
+    var mensagem = document.getElementById("id_mensagem").value;
+    if ((email === undefined || email === null || email === "") || (nome === undefined || nome === null || nome === "") || (mensagem === undefined || mensagem === null || mensagem === "")) {
+        alert("Falta preencher alguma informação, favor verificar!")
+    }
+    else {
+        if (email.match(/@/) && email.match(/\.com/)) {
+            alert("Mensagem enviada com sucesso!");
+        }
+        else {
+            alert("Email incorreto! Favor verificar.");
+        }
+    }
+}
